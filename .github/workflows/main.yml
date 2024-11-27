@@ -23,4 +23,4 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s tests  # Предполагается, что ваши тесты находятся в директории "tests"
+        python -m unittest test.py  # Предполагается, что ваши тесты находятся в директории "tests"
